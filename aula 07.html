@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aula07</title>
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <header>
+    <nav>
+    <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    </nav>
+  </header>
+    
+    
+    
+      <form id="frm"  >
+         
+              <h1>Aula de Web</h1>
+              <div class="bloco">
+                 <span>Nome:</span>
+                 <input type="text" name="txtnome" placeholder="Introduza o seu nome">
+                 <input id="enviar" type="button" value="Enviar" onClick="ola('Ola')">
+              </div>
+              <main>
+                <h1>Lógica de programação com javascript</h1>
+                <input type="number" name="txt01" id="txt01" class="txt">
+                <input type="number" name="txt02" id="txt02" class="txt">
+                <input type="button" value="Limpar" onClick="limpar()"/>
+                <button onclick="iniciarCalculo('+')">+</button>
+                <button onclick="iniciarCalculo('-')">-</button>
+                <button onclick="iniciarCalculo('*')">*</button>
+                <button onclick="iniciarCalculo('/')">/</button>
+                <button onclick="total('=')">=</button>
+                <div id="output">O resultado é:</div> </div>
+              </main>
+     </form>
+  
+
+
+      <script>
+       
+        
+       function calc(e){
+
+var operacao = e.value;
+
+var n1=parseFloat(document.getElementById("n1").value);
+var n2=parseFloat(document.getElementById("n2").value);
+
+var calculo = eval(n1+operacao+n2);
+
+if(!isNaN(calculo)){
+   alert(calculo);
+}
+
+   function mostrarresultados() {
+  
+        }
+  
+        function limpar(){
+           //alert("1");
+           var f=document.getElementById("frm");
+           var n1 = f.n1;
+           var n2 = f.n2;
+  
+           n1.value = "";
+           n2.value = "";
+        }
+      }
+        </script>
+
+    </body>
+    </html>

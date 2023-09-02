@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2calc</title>
+    <link rel="stylesheet" href="2calc.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+
+     <h1>Lógica de programação com javascript</h1>
+     <div class="content">
+      <button onclick="somar('+')">+</button>
+        <button onclick="subtrair('-')">-</button>
+        <button onclick="multiplicar('*')">*</button>
+        <button onclick="dividir('/')">/</button>
+        <div id="output"></div>
+     </div>
+        
+      <script>
+        var n1 = prompt('digite um numero');
+        n1 = parseFloat(n1);
+        escreve();
+        function escreve(){
+          var output=document.querySelector('#output');
+          output.innerHTML = n1;}
+          
+          function somar(){
+            var n = prompt('digite outro numero');
+            n =parseFloat(n);
+            n1 = n1 + n;
+            escreve();
+          }
+
+          function subtrair(){
+            var n = prompt('digite outro numero');
+            n =parseFloat(n);
+            n1 = n1 - n;
+            escreve();
+          }
+
+          function multiplicar(){
+            var n = prompt('digite outro numero');
+            n =parseFloat(n);
+            n1 = n1 * n;
+            escreve();
+          }
+
+          function dividir(){
+            var n = prompt('digite outro numero');
+            n =parseFloat(n);
+            n1 = n1 / n;
+            escreve();
+          }
+          </script>
+              </body>
+              </html>
+  
+              

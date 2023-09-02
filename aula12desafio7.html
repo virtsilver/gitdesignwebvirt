@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula12desafio7</title>
+    <link rel="stylesheet" href="aula12desafio7.css">
+    <link rel="stylesheet" href="css/normalize.css">
+   </head>
+  <body>
+    <headr>
+    <nav>
+      <ul>
+        <li>Menu 01</li>
+        <li>Menu 02</li>
+        <li>Menu 03</li>
+      </ul>
+    </nav>
+  </headr>
+      <main>
+        <h1 class="fonte_01">DOM DOCUMENT OBJECT MODEL</h1> 
+          <div id="div01" class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eum aspernatur, in minima blanditiis sequi suscipit ipsa incidunt exercitationem. Nihil sed in numquam tenetur earum exercitationem non eum doloremque quaerat.</div>
+          <div id="div02" class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsam minima ducimus sunt aperiam assumenda. Sequi ducimus illum, tenetur modi dignissimos, hic adipisci expedita architecto veniam non consectetur perspiciatis fuga?</div>
+          <div id="div03" class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque dolore repellat, laboriosam illo quisquam voluptates quaerat aperiam molestiae sit. Qui animi doloremque dolorem aut cumque incidunt fugiat sed architecto.</div>  
+      </main>
+      <footer>elas_na_tech</footer>
+      <script> 
+      var v1 = document.getElementById('div01');
+      v1.style.backgroundColor = "blue";
+      
+      var v2= document.getElementsByClassName('content')[1];
+      v2.style.backgroundColor = 'pink';
+      v2.innerHTML = 'javascript';
+      
+      var v3 = document.querySelector('div#div03');
+      v3.style.backgroundColor = 'green';
+      v3.innerHTML = 'Aula 03';
+      
+
+      var d = documen.getElementById('div01');
+      d.addEventlistener('click', clicar);
+      d.addEventlistener('mouseout', sair);
+      
+      functiom clicar () {
+        d.innertext = 'voce clicou aqui';
+        d.style.backgroundColor = blue;
+      }
+
+        function sair () {
+          d.innertext = ELASNA TECH 2023 aula 12;
+          d.style.backgroundColor = deepink;
+        }
+      
+
+
+      </script>
+
+      </body>
+   
+   </html>

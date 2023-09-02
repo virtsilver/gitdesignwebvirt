@@ -1,0 +1,82 @@
+html {font-size: 36px; }
+
+body {margin: 0%;
+background-color:rgb(3, 250, 168 ;}
+
+.flexbox {
+border: 5px;
+background-color:rgb(3, 250, 168);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: 150px;
+justify-content: space-between; 
+align-items: flex-start;
+}
+
+.flexbox div {
+  border: 2px solid rgb(38, 107, 38);
+  padding: 16px;
+ background-color:rgb(3, 250, 168);
+  display: contents;
+  height: 80px;
+  justify-content: space-between; 
+  align-items: flex-start; 
+ }
+
+ .tamanho1 { 
+  height: 100%;
+  margin-bottom: 15px;
+  display: contents;
+  background-color: rgb(3, 250, 168);}
+  
+
+
+ .flexbox div:hover {
+
+ }
+ 
+.headr { 
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(185, 245, 225);
+  padding: 16px;
+  color:rgb(38, 107, 38);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.headr-logo{
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  color: rgb(38, 107, 38);
+}
+.headr-nav ul{
+  display: flex;
+  list-style-type: none;
+  font-size: 22px;
+  gap: 16px;
+  margin-right: 30px;
+  color:rgb(38, 107, 38) ;}
+
+.headr-nav a { 
+  color: rgb(38, 107, 38);
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 5px solid black;}
+
+.headr-nav a:hover { 
+  background-color: yellowgreen;
+  border-radius: 5px;
+  color: black;
+ 
+}
+  
+.footer {
+background-color:aquamarine;
+font-size: 56;
+text-align: center;
+color:rgb(38, 107, 38) ;
+}
+

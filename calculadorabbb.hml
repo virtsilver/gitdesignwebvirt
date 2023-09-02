@@ -1,0 +1,24 @@
+<script>
+        var btnSomar = document.getElementById('btnSomar');
+        btnSomar.addEventListener('click', somar);
+
+
+        function somar() {
+            var c1 = document.getElementById('txt01');
+            var c2 = document.getElementById('txt02');
+            var result = document.getElementById('resultado');
+
+
+           
+            var num1 = parseFloat(c1.value);
+            var num2 = parseFloat(c2.value);
+
+
+            var resultado = num1 + num2;
+            result.innerText = "A soma é: " + resultado;
+
+
+        }
+
+
+    </script>

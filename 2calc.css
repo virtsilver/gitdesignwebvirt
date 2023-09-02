@@ -1,0 +1,19 @@
+body {
+  background-color: #D7FA58;
+  margin: 100em;
+}
+ 
+
+
+h1 {
+  background-color: #09DE84;
+  text-align: center;
+}
+.content{
+  background-color:#FF4E0A ;
+  display: flex;
+  margin: 150px;
+  align-items: center;
+  padding: 50px;
+  
+}

@@ -1,0 +1,102 @@
+body{
+  background-color:#f5f5e5;
+   margin:auto;
+   font-family: Arial, Helvetica, sans-serif;}
+
+.cabeçalho{ 
+  background-image: url(imagem/laptop-g0e0ae90fa_1280.jpg);
+  height: 1000px; 
+  background-size: cover;
+  padding-top:  1px;
+  color:#27483F ;
+  text-align: center; }
+ 
+  .div-cabeçalho{
+     background-color:
+     #D9B9A7;
+     margin: auto;
+     padding-top: 2px%;
+     padding-bottom: 25px;
+     color:  #2F330B ;
+     text-align: center;}
+    
+     
+ .div-cabeçalho h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px, 2px, #2F330B (0, 0 ,0 ,5);
+  text-align: center;
+
+}
+.div-cabeçalho a{
+  background-color: #93A651;
+  text-decoration: none;
+  color:#2F330B ;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.div-cabeçalho a:hover
+{
+  background-color:#D8D9BF;
+  color:#44C199 ;
+  
+  
+}
+.cabeçalho nav ul { 
+  background-color:#097D35 ;
+  margin:25px 40 px 0 0; 
+  text-align: center;
+}
+.cabeçalho nav ul li { 
+  list-style-type: none;
+  display:inline-block ;
+  margin-left: 15 px;
+  text-transform: uppercase;
+  letter-spacing;: 2px;
+  font-size; 12px;
+}
+.cabeçalho nav a { 
+color: #5EBB4B ;
+text-decoration: none;
+background-color:#5B897E ;
+padding:5px ;
+border-radius: 5px ;
+}
+.cabeçalho nav a:hover {
+  background-color:#989C86 ;
+  color:aquamarine;
+
+} 
+
+main {
+  whidth: 90%
+  margin; auto
+}
+.parágrafo {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height;1,5;
+  text-align: justify
+}
+h2 { background-color:#62917D ;
+text-align: center;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem {
+  float:left;
+  text-align: justify;
+  background-size: auto;
+  background-position: right bottom;
+ 
+}
+.rodapé {
+  background-color: #778880;
+  color: white;
+  text-align: center;
+  padding: 30 ;
+  text-shadow: 2px, 2px, 2px, black;
+
+}

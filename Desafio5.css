@@ -1,0 +1,233 @@
+:root { --cor-site: #F5888D;}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+SA+Beginner&family=Satisfy&display=swap');
+</style>
+
+
+ @font-face {
+  font-family:'Edu SA Beginner', cursive; 
+  src: url(font-face.html/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf) format(truetype);
+  font-family: 'Satisfy', cursive;
+  src: url(font-face.html/Satisfy/Satisfy-Regular.ttf) format(truetype);
+  font-family: 'Dancing Script', cursive;
+  src: url(font-face.html/Dancing_Script/DancingScript-VariableFont_wght.ttf) format(truetype);
+}
+
+
+.maxWidth {max-width: 90em;}
+
+body {
+  background-color:#9ADFBB;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  text-transform: uppercase;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  font-family: 'Dancing Script', cursive; 
+}
+
+.headr_logo {
+  width: 5.9em;
+  height: 100px;
+  margin: 1em;
+  font-family: 'Satisfy', cursive;
+}
+
+.headr_nav {
+  background-color: var(--cor-site);
+}
+
+ul {
+  margin: 0;
+  border-radius: 5px;
+}
+
+.headr_nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: .8em;
+  text-align: center;
+}
+
+.headr_nav a{
+  color: #6f8b4f;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.headr_nav a:hover{
+  background-color: color-mix(in srgb, var(--cor-site) , #F422E4 80% );
+}
+
+@media screen and (min-width: 48em) {
+  .headr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .headr_logo {
+    margin-left: 2em;
+  }
+  .headr_nav {
+    background-color: initial;
+  }
+  .headr_nav ul {
+    margin-right: 2em;
+    font-size: .9em;
+  }
+  .headr_nav li {
+    display: inline-block;
+  }
+  .headr_nav a {
+    color: var(--cor-site);
+    border-radius: 5px;
+  }
+  .headr_nav a:hover{
+    background-color: color-mix(in srgb,var(--cor-site), #F422E4 80%);
+  }
+}
+
+.trailer {
+  background-color:#CCDFBB ;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.5em;
+  font-family: 'Edu SA Beginner', cursive; 
+  text-transform: uppercase;
+}
+
+.trailer div {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.trailer_title {
+  margin-top: 0;
+  padding-top: .5em;
+  color: var(--cor-site);
+  font-style:'Dancing Script', cursive;
+}
+
+.trailer h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+
+}
+.trailer_paragrafo {
+  font-size: 1.1em;
+}
+
+.trailer_botão {
+  display: inline-block;
+  background-color: var(--cor-site);
+  margin-top: 1em;
+  padding:  1em 2em;
+  border-radius: 8px;
+  text-decoration: none;
+  color: brown;
+  text-transform: uppercase;
+
+}
+.trailer_botão_article {
+  display:inline-block;
+  background-color: var(--cor-site);
+  margin-top: 1em;
+  padding:  1em 2em;
+  border-radius: 8px;
+  text-decoration: none;
+  color: brown;
+  text-transform: uppercase;
+}
+  
+.trailer_botão:hover {
+  background-color: color-mix(in srgb,var(--cor-site), #F422E4 80%);
+  }
+
+.trailer_botão_article:hover {
+  background-color: color-mix(in srgb,var(--cor-site), #F422E4 80%);
+  }
+
+@media screen and (min-width:48em) {
+  .trailer {
+    background-image:url(imagem/marianna-lutkova-4PSLAKVQQ88-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: initial; 
+    
+  }
+  .trailer div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .trailer_paragrafo {
+    margin-bottom: 2em;
+  } 
+  
+}
+ 
+.main_content{
+  background-color:#9ADFBB ;
+  text-align:center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  align-items: flex-start;
+  font-family: 'Satisfy'; 
+}
+
+.main_content div {
+  margin: auto;
+  padding: 1em;
+  width: 80%;
+}
+.main_content_title {
+  color: var(--cor-site)
+}
+.icon_img {
+  width: 5.5em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  }
+.col{
+  flex: 1 0 auto;
+  width: 100%; 
+}
+
+.col-12{
+  width: 100%;
+  background-color:#F2C4B2 ;
+}
+
+@media screen and (min-width: 48em) {
+  .col-6(width: calc(50% - 2rem);
+    }
+}
+
+@media  and (min-width: 48em) {
+  .row {flex-direction: column;}
+}
+  
+footer {
+  background-color: var(--cor-site);
+  padding: 1em;
+  text-align: center;
+  font-family:'Dancing Script', cursive;
+}
+  

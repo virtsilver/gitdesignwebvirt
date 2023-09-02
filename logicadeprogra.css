@@ -1,0 +1,21 @@
+body {
+  background-color: #D7FA58;
+}
+main {
+  background-color: #09DE84;
+}
+nav { 
+  background-color: #FF4E0A;
+}
+h1 {
+  background-color: #09DE84;
+}
+.iniciarCalculo {
+  
+  background-color: crimson;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+}
+
+  

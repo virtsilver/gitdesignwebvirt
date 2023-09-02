@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-5</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.1-dist/css/bootstrap-grid.min.css">
+    <script type="text/javascript" src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style type="text/css">
+    .exemplo-cor{
+      background: grey;
+      border: solid 5px red;
+     
+    }
+    .exemplo-cor2{
+      background: grey;
+      border: solid 5px yellow;
+      background-color: aquamarine;
+      background: greenyellow;
+     
+    }
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <div style="border:solid 5px black; height: 400px" class="container" >
+        <div class="row" style="min-height:250px" >
+          <div class="col-4 align self end exemplo-cor">coluna</div>
+          <div class="col-4 align self end exemplo-cor">coluna</div>
+          <div class="col-4 align self end exemplo-cor">coluna</div>
+          <div class="col-4 align self end exemplo-cor">coluna</div>
+          <div class="col-4 align self end exemplo-cor">coluna</div>  
+        </div>
+      </div>
+    </section>
+    <section>
+      <div style="border:solid 5px black; height: 400px" class="container">
+        <div class="row justify-content-around" style="min-height:250px" >
+           <div class="col-2  exemplo-cor2">alinhamento horizontal</div>
+           <div class="col-2  exemplo-cor2">alinhamento horizontal</div>
+           <div class="col-2  exemplo-cor2">alinhamento horizontal</div>
+          <div class="col-2  exemplo-cor2">alinhamento horizontal</div>     
+      </div>
+    </div>
+  </section>
+  <section>offset
+      <div style="border:solid 5px black; height: 400px" class="container">
+        <class="row" style="min-height:250px">
+          <div class="col-2 offset-lg-4 offset-sm-1 offset-1  exemplo-cor2">alinhamento horizontal</div>
+          <div class="col-2  exemplo-cor2">alinhamento horizontal</div>
+          <div class="col-2  exemplo-cor2">alinhamento horizontal</div>
+       </div>
+      </div>
+  </section>
+  <section>
+    <div style="border:solid 5px black; height: 400px" class="container" >
+      <div class="row justify-content-around" style="min-height:250px" >
+      <div class="col-12 order-3 order-sm-first col-sm-6 exemplo-cor2">alinhamento horizontal</div>
+      <div class="col-6 order-1 order-sm-first col-sm3 exemplo-cor2">alinhamento horizontal</div>
+      </div>
+  </div>
+</section>
+<section>
+  <div style="border:solid 5px black; height: 400px" class="container" >
+    <img class="img-fluid" src="imagem/vladimir-visotsky-ZQKk3AXTGlQ-unsplash.jpg" alt="">
+    <div class="row justify-content-around" style="min-height:250px" >
+    <div class="col-6 order-1 order-sm-1 col-sm-3 exemplo-cor2">1</div>
+    <div class="col-6 order-sm-2 order-3 exemplo-cor">2</div>
+    <div class="col-3 order-sm-5  order exemplo-cor2">3</div>
+    <div class="col-3 col-sm-3 exemplo-cor2">4</div>
+    <div class="col-6 col-sm-6 exemplo-cor2">5</div>
+    <div class="col-3 col-sm-3 exemplo-cor2">6</div>
+   </div>
+</div>
+</section>
+<section>
+  <div style="border:solid 5px black; height: 400px" class="container" >
+    <div class="row justify-content-around" style="min-height:250px" >img
+      <img style="width:250px"  class="img-fluid" src="imagem/vladimir-visotsky-ZQKk3AXTGlQ-unsplash.jpg" alt="test">
+    </div>
+    <div class="row justify-content-around" style="min-height:250px" >
+      <img class="img-fluid" src="imagem/vladimir-visotsky-ZQKk3AXTGlQ-unsplash.jpg" alt="test">
+    </div>
+  </div>
+</section>
+<section>tabelas
+  <div class="container">
+    <table class="table table-warning">
+      <thead>
+          <tr>
+            <th>frutas</th>
+            <th>vendas</th>
+            <th>quantidade</th>
+            <th>quilo/unidade</th>
+          </tr>
+        </thead>
+            <tbody>
+              <tr class="table table-warning" >
+            <td>maça</td>
+            <td>R$100</td>
+            <td>100</td>
+            <td>quilo</td>
+          </tr>
+              <tr>
+            <td>laranja</td>
+            <td>R$100</td>
+            <td>100</td>
+            <td>quilo</td>
+          </tr>
+              <tr>
+            <td>pera</td>
+            <td>R$100</td>
+            <td>100</td>
+            <td>quilo</td>
+          </tr>
+              <tr>
+            <td>abacate</td>
+            <td>R$100</td>
+            <td>100</td>
+            <td>quilo</td>
+          </tr>
+            </tbody>
+          </table>
+       </div>     
+     </section>
+  </body>
+  </html>
